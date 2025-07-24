@@ -1,0 +1,102 @@
+header{
+    background-color: rgb(211, 209, 209);
+    padding: 5px 20px;
+    border-radius: 10px;
+    position: sticky;
+    top:0;
+    box-shadow: inset 0px 0px 10px;
+    
+ 
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .navbar .nav-menu{
+    display: flex;
+    justify-content:space-around;
+    gap :20px;
+    .nav-item{
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+header .nav-menu .nav-item .nav-link{
+    color: inherit;
+    text-decoration: inherit;
+    outline: none;
+
+}
+main .login-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main .login-container .title{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+main .login-container .login-credentials{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    align-items: center;
+    padding: 20px;
+     
+    border-radius: 10px;
+}
+main .login-container .login-credentials input{
+    font-size: 20px;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(250, 244, 244);
+    outline: none;
+
+}
+main .login-container .login-credentials input::placeholder{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+
+}
+main .login-container .login-credentials .login-button-container{
+
+    
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+main .login-container .login-credentials button{
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+main .login-container .login-credentials .login-button{
+    background-color: rgb(76, 76, 157);
+    color: white;
+    font-weight: 400;
+}
+main .login-container .login-credentials .cancel-button{
+    background-color: rgb(43, 41, 41);
+    color: white;
+    font-weight: 400;
+
+}
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="./To Do list.css">
+</head>
+<body>
+    <header>
+      <div class="navbar">
+        <div class="company-name">
+            <h1>To Do </h1>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="./To do list.html" class="nav-link">Home</a>
+            </li>
+             <li class="nav-item">
+                <a href="./login.html" class="nav-link">login</a>
+            </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+     <div class="input-container">
+     <div class="task-input-container">
+        <input type="text" class="task-input" id="task-input" name="task" placeholder="Enter a new task ...">
+        <input type="date" name="time" class="date" id="date">
+        <input type="time" name="time" id="time" class="time">
+        <button class="add-task">Add Task</button>
+     </div>
+     <div class="task-filter-container">
+        <select name="task-filter" id="task-filter" class="task-filter">
+            <option value="all">All</option>
+            <option value="not completed">Not Completed</option>
+            <option value="completed">Completed</option>
+            <option value="deleted">Deleted</option>
+        </select>
+     </div>
+     </div>
+     <div class="task-display-container">
+        <div class="section-title">Tasks Here</div>
+        <div id="default-message" style="text-align: center; font-size: 30px;">
+            No task added.Please add a task
+        </div>
+        <div class="task-container">
+            <p class="task">Play kabbadi</p>
+            <div class="task-time-container">
+                <p class="task-date">2025-07-06</p>
+                <p class="task-time">12:00</p>
+            </div>
+            <div class="task-status">
+             <button class="task-completed">Mark as Completed</button>
+            </div>
+            <div class="task-delete-container">
+                <button class="delete-task">Delete</button>
+            </div>
+     </div>
+      <div class="task-container">
+            <p class="task">Play kabbadi</p>
+            <div class="task-time-container">
+                <p class="task-date">2025-07-06</p>
+                <p class="task-time">12:00</p>
+            </div>
+            <div class="task-status">
+             <button class="task-completed">Mark as Completed</button>
+            </div>
+            <div class="task-delete-container">
+                <button class="delete-task">Delete</button>
+            </div>
+     </div>
+      <div class="task-container">
+            <p class="task">Play kabbadi</p>
+            <div class="task-time-container">
+                <p class="task-date">2025-07-06</p>
+                <p class="task-time">12:00</p>
+            </div>
+            <div class="task-status">
+             <button class="task-completed">Mark as Completed</button>
+            </div>
+            <div class="task-delete-container">
+                <button class="delete-task">Delete</button>
+            </div>
+     </div>
+     </div>
+      
+     
+     
+    </main>
+    <footer>
+
+    </footer>
+    <script src="To Do list.js"></script>
+</body>
+</html>

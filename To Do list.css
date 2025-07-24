@@ -1,0 +1,147 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header{
+    background-color: rgb(211, 209, 209);
+    padding: 5px 20px;
+    border-radius: 10px;
+    position: sticky;
+    top:0;
+    box-shadow: inset 0px 0px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+ 
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .navbar .nav-menu{
+    display: flex;
+    justify-content:space-around;
+    gap :20px;
+    .nav-item{
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+header .nav-menu .nav-item .nav-link{
+    color: inherit;
+    text-decoration: inherit;
+    outline: none;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 100%;
+
+
+}
+main .input-container{
+     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px
+
+}
+main .input-container .task-input-container input{
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+
+}
+main .input-container .task-input-container input::placeholder{
+    font-size: 15px;
+    font-family: monospace;
+}
+main .input-container{
+    gap: 20x;
+}
+main .input-container .task-input-container input[type="date"]{
+    font-size: 16px;
+}
+main .input-container .task-input-container input[type="time"]{
+    font-size: 16px;
+}
+main .input-container .task-input-container .add-task{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+    cursor: pointer;
+
+}
+main .input-container .task-filter-container .task-filter{
+    font-size: 17px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 5px; 
+}
+main .task-display-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+main .task-display-container .section-title{
+   text-align: center;
+   font-size: 30px;
+   font-size: 600;
+
+}
+main .task-display-container .task-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+main .task-display-container .task-container .task-time-container{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+main .task-display-container .task-container button{
+    font-size:14px;
+    
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+}
+main .task-display-container .task-container .task-completed{
+ background-color: rgb(13, 234, 13);
+ font-weight: 500;
+}
+main .task-display-container .task-container .delete-task{
+    background-color: red;
+    font-weight: 500px;
+}
+main .task-display-container
+#default-message{
+    display: none;
+    color: gray;
+    font-weight: 600;
+}
+
